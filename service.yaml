@@ -1,0 +1,9 @@
+name: reference-ranges-service
+port: 8407
+lang: python
+description: "reference-ranges-service \u2014 domain: lab"
+http_deps:
+- audit-log-service
+publishes:
+- audit.event
+subscribes: []
